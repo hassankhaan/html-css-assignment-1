@@ -1,0 +1,97 @@
+body, html {
+    font-family: 'Platypi', sans-serif; 
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.profile-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h2 {
+    margin-top: 0;
+    color: #C08261;
+}
+
+.profile-card p {
+    margin-bottom: 10px;
+}
+
+.profile-card img {
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px #C08261 solid;
+}
+
+.profile-card-followers {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-card-followers div {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.profile-card-followers h3 {
+    font-weight: 500;
+    color: #C08261;
+    margin-bottom: 2px;
+}
+
+.profile-card-followers p {
+    margin-top: 3px;
+}
+
+.profile-card-button1 {
+    display: inline-block;
+    padding: 8px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #E2C799;
+    color: black;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 10px 0px 0px;
+}
+  
+.profile-card-button1:hover {
+    background-color: #E2C799;
+    color: white;
+}
+  
+.profile-card-button2 {
+    display: inline-block;
+    padding: 8px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #9A3B3B;
+    color: #ffffff;
+    background-color: #9A3B3B;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 0px 0px 10px;
+}
+  
+.profile-card-button2:hover {
+    background-color: #803434;
+    border-color: #803434;
+}
+  
